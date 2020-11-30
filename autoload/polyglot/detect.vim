@@ -72,6 +72,7 @@ func! polyglot#detect#M(...)
   if a:0 != 1 && did_filetype()
     return
   endif
+  set ft=objc | return
   let saw_comment = 0
   for lnum in range(1, min([line("$"), 100]))
     let line = getline(lnum)
