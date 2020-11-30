@@ -81,9 +81,6 @@ func! polyglot#detect#M(...)
     if line =~# '^\s*\(@\(interface\|class\|protocol\|property\|end\|synchronised\|selector\|implementation\)\(\<\|\>\)\|#import\s\+.\+\.h[">]\)'
       set ft=objc | return
     endif
-    if line =~# '^\s*%'
-      set ft=octave | return
-    endif
     if line =~# '^\s*(\*'
       set ft=mma | return
     endif
@@ -97,7 +94,7 @@ func! polyglot#detect#M(...)
   if exists("g:filetype_m")
     let &ft = g:filetype_m | return
   endif
-  set ft=octave | return
+  set ft=objc | return
 endfunc
 
 func! polyglot#detect#Fs(...)
