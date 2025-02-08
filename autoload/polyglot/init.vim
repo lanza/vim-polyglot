@@ -1132,10 +1132,6 @@ if !has_key(g:polyglot_is_disabled, 'lilo')
   au BufNewFile,BufRead lilo.conf* call s:StarSetf('lilo')
 endif
 
-if !has_key(g:polyglot_is_disabled, 'lifelines')
-  au BufNewFile,BufRead *.ll setf lifelines
-endif
-
 if !has_key(g:polyglot_is_disabled, 'lftp')
   au BufNewFile,BufRead *lftp/rc,{.,}lftprc,lftp.conf setf lftp
 endif

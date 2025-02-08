@@ -287,7 +287,6 @@ let s:globs = {
   \ 'lhaskell': '*.lhs',
   \ 'libao': '',
   \ 'lidris2': '*.lidr',
-  \ 'lifelines': '*.ll',
   \ 'lilo': 'lilo.conf,lilo.conf*',
   \ 'lilypond': '*.ly,*.ily',
   \ 'limits': '',

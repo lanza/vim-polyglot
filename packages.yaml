@@ -3369,15 +3369,6 @@ filetypes:
   - pattern: lftp.conf,.lftprc,*lftp/rc
     description: LFTP
 ---
-name: lifelines
-native: true
-glob: "**/lifelines.vim"
-filetypes:
-- name: lifelines
-  patterns:
-  - pattern: "*.ll"
-    description: Lifelines (or Lex for C++!)
----
 name: lilo
 native: true
 glob: "**/lilo.vim"

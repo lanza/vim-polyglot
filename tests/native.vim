@@ -264,7 +264,6 @@ let s:filename_checks = {
     \ 'lftp': ['lftp.conf', '.lftprc', 'anylftp/rc', 'lftp/rc', 'some-lftp/rc'],
     \ 'lhaskell': ['file.lhs'],
     \ 'libao': ['/etc/libao.conf', '/.libao', 'any/.libao', 'any/etc/libao.conf'],
-    \ 'lifelines': ['file.ll'],
     \ 'lilo': ['lilo.conf', 'lilo.conf-file'],
     \ 'limits': ['/etc/limits', '/etc/anylimits.conf', '/etc/anylimits.d/file.conf', '/etc/limits.conf', '/etc/limits.d/file.conf', '/etc/some-limits.conf', '/etc/some-limits.d/file.conf', 'any/etc/limits', 'any/etc/limits.conf', 'any/etc/limits.d/file.conf', 'any/etc/some-limits.conf', 'any/etc/some-limits.d/file.conf'],
     \ 'liquid': ['file.liquid'],
